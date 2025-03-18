@@ -216,3 +216,5 @@ def statcast_pitcher_bat_tracking(year: int, minSwings: Union[int,str] = "q") ->
     data = pd.read_csv(io.StringIO(res.decode('utf-8')))
     data = sanitize_statcast_columns(data)
     return data
+player_id = 594798
+
